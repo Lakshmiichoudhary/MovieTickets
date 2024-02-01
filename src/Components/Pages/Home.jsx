@@ -3,7 +3,6 @@ import ShowList from '../Movie/ShowList';
 
 const Home = () => {
   
-
   return (
     <div>
       <ShowList />

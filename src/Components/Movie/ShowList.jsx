@@ -30,9 +30,11 @@ const ShowList = () => {
   }, []);
 
   return (
-    <div>
-      <h2 className='p-2 text-center font-bold text-2xl'>Show List</h2>
-      <ul className='flex flex-wrap m-2 p-2'>
+    <div className='bg-gradient-to-br from-purple-400'>
+      <h2 className='p-2 text-center font-bold text-2xl'>
+        Show List🍿
+      </h2>
+      <ul className='flex flex-wrap mx-12 md:mx-0 md:m-2 p-2'>
         {shows.map(show => (
           <Show key={show.id} {...show} />
         ))}
